@@ -1,0 +1,15 @@
+﻿{
+  "name": "modesta-backend",
+  "version": "1.0.0",
+  "description": "MODESTA AI Styling Platform Backend",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "lint": "eslint src/**/*.ts"
+  },
+  "keywords": ["fashion", "ai", "modest", "styling"],
+  "author": "",
+  "license": "ISC"
+}
